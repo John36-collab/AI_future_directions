@@ -180,47 +180,42 @@ You can copy and paste directly into your README.md — it will render perfectly
 
 
 ---
+# 📊 Performance Metrics
 
-📊 Performance Metrics
+## Model Performance
 
-Model Performance
-
-Metric	Value
-
-Overall Accuracy	92.3%
-Model Size	2.4 MB
-Inference Time	28 ms (avg)
-FPS Capability	35 FPS
-Power Consumption	0.8 W
-Memory Usage	245 MB
-
-
+| **Metric**              | **Value**        |
+|-------------------------|------------------|
+| Overall Accuracy        | 92.3%           |
+| Model Size              | 2.4 MB          |
+| Inference Time          | 28 ms (avg)     |
+| FPS Capability          | 35 FPS          |
+| Power Consumption       | 0.8 W           |
+| Memory Usage            | 245 MB          |
 
 ---
 
-Per-Category Accuracy
+## Per-Category Accuracy
 
-Category	Precision	Recall	F1-Score	Accuracy
-
-Plastic Bottle	0.95	0.93	0.94	94%
-Glass Bottle	0.92	0.90	0.91	91%
-Aluminum Can	0.89	0.87	0.88	88%
-Paper/Cardboard	0.90	0.88	0.89	89%
-Non-Recyclable	0.94	0.92	0.93	93%
-
-
+| **Category**        | **Precision** | **Recall** | **F1-Score** | **Accuracy** |
+|---------------------|--------------|------------|--------------|--------------|
+| Plastic Bottle      | 0.95         | 0.93       | 0.94         | 94%          |
+| Glass Bottle        | 0.92         | 0.90       | 0.91         | 91%          |
+| Aluminum Can        | 0.89         | 0.87       | 0.88         | 88%          |
+| Paper/Cardboard     | 0.90         | 0.88       | 0.89         | 89%          |
+| Non-Recyclable      | 0.94         | 0.92       | 0.93         | 93%          |
 
 ---
 
-Edge vs Cloud Comparison
+## Edge vs Cloud Comparison
 
-Aspect	Edge AI	Cloud AI	Improvement
-
-Latency	28 ms	280 ms	10× faster
-Privacy	100% local	Data sent	Complete
-Cost/1K inferences	$0.10	$2.00	95% cheaper
-Offline Operation	Yes	No	100% uptime
-Bandwidth	0 MB	~50 MB	100% saved
-Scalability	Linear	Server-limited	
+| **Aspect**           | **Edge AI**  | **Cloud AI** | **Improvement**     |
+|----------------------|--------------|--------------|----------------------|
+| Latency             | 28 ms        | 280 ms       | 10× faster           |
+| Privacy             | 100% local   | Data sent    | Complete             |
+| Cost/1K inferences  | $0.10        | $2.00        | 95% cheaper          |
+| Offline Operation   | Yes          | No           | 100% uptime          |
+| Bandwidth           | 0 MB         | ~50 MB       | 100% saved           |
+| Scalability         | Linear       | Server-limited | —                  |
 
 
